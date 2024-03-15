@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/layout.astro';
+import Select from '../components/select';
+---
+
+<Layout>
+	<div style={{ display: 'flex', flexDirection: 'column' }}>
+		<h1>JavaScript Streaming</h1>
+		<Select />
+		<p>Click on the JS filter in the network tab (in preview), refresh the page, and interact with the select.</p>
+		<p>html first, instantly interactive, automatically optimized, no hydration.</p>
+		<a href="/test">Try view transitions</a>
+		<a href="/new-page">Try view transitions with Qwik component on a new page</a>
+	</div>
+</Layout>
+
+<style>
+	a {
+		display: block;
+	}
+</style>
